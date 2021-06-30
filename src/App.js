@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download on the App Store free!
+          Download on the App Store free today!
         </a>
       </header>
     </div>
