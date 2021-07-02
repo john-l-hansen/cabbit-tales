@@ -20,19 +20,19 @@ function App() {
       {/* Working on top nav */}
       <div className="Top-nav">
         <a
-        href="https://google.com">
+        href="https://google.com" alt="cabbit facebook">
           <img src={facebook} />
         </a>
         <a
-        href="https://google.com">
+        href="https://google.com" alt="cabbit instagram">
           <img src={instagram} />
         </a>
         <a
-        href="https://google.com">
+        href="https://google.com" alt="cabbit twitter">
           <img src={twitter} />
         </a>
         <a
-        href="https://google.com">
+        href="https://google.com" alt="cabbit youtube">
           <img src={youtube} />
         </a>
       </div>
