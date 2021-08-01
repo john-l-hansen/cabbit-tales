@@ -12,7 +12,7 @@
   background-color: black;
   background-image: url("./img/hero-lg.jpg");
   background-size: cover;
-  color: #9877FD;
+  color: #6F00C1;
   min-height: 100vh;
   display: flex;
   font-size: 3rem;
@@ -24,6 +24,8 @@
   /* font-size: calc(10px + 2vmin); */
 }
 
+
+
 .App-header p {
   max-width: 80%;
 }
@@ -31,12 +33,6 @@
 .App-link {
   color: #61dafb;
 }
-
-
-
-
-
-
 
 .Top-nav img {
   margin: 0 .25rem;
@@ -49,6 +45,6 @@
   filter: brightness(0.65);
  }
 
-
-
-
+ .Squiggle {
+  padding-top: 3rem;
+}

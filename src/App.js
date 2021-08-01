@@ -6,6 +6,7 @@ import instagram from './img/instagram.svg';
 import twitter from './img/twitter.svg';
 import youtube from './img/youtube.svg';
 import logo from './img/logo.png';
+import squiggle from './img/squiggle.svg';
 
 import Button from './Components/Button.js';
 
@@ -18,6 +19,8 @@ function App() {
 
 
       {/* Working on top nav */}
+
+{/*       
       <div className="Top-nav">
         <a
         href="https://google.com" alt="cabbit facebook">
@@ -35,28 +38,23 @@ function App() {
         href="https://google.com" alt="cabbit youtube">
           <img src={youtube} />
         </a>
-      </div>
+      </div> */}
       {/* End top nav */}
-
-
-
-
-
-
 
       <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
+      <img src={squiggle} className="Squiggle" alt="squiggle" />
         <p>
-        Welcome to the wonderful world of Cabbit Tales! An interactive story app!
+        The wonderful world of Cabbit Tales are coming soon! For kids, by kids!
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Button>Download on the App Store free today!</Button>
-        </a>
+        </a> */}
       </header>
     </div>
   );
